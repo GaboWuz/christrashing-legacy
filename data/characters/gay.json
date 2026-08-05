@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "idlee"
+		},
+		{
+			"offsets": [
+				3,
+				2
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				8,
+				-18
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-16,
+				-2
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-11,
+				3
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/boyass",
+	"position": [
+		0,
+		190
+	],
+	"healthicon": "oh",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		229,
+		173
+	],
+	"camera_position": [
+		80,
+		40
+	],
+	"sing_duration": 4.1,
+	"scale": 1.4
+}

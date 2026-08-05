@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fogos.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="yellow0000" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0001" x="827" y="411" width="10" height="65" frameX="-134" frameY="-413" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0002" x="814" y="346" width="13" height="168" frameX="-134" frameY="-242" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0003" x="850" y="646" width="13" height="14" frameX="-135" frameY="-216" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0004" x="426" y="692" width="213" height="251" frameX="-42" frameY="-103" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0005" x="837" y="323" width="261" height="323" frameX="-12" frameY="-69" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0006" x="0" y="0" width="279" height="346" frameX="-5" frameY="-62" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="yellow0007" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0000" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0001" x="811" y="514" width="10" height="65" frameX="-134" frameY="-413" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0002" x="865" y="692" width="13" height="168" frameX="-134" frameY="-242" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0003" x="876" y="646" width="13" height="14" frameX="-135" frameY="-216" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0004" x="213" y="692" width="213" height="251" frameX="-42" frameY="-103" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0005" x="837" y="0" width="261" height="323" frameX="-12" frameY="-69" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0006" x="279" y="0" width="279" height="346" frameX="-5" frameY="-62" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="pink0007" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0000" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0001" x="801" y="514" width="10" height="65" frameX="-134" frameY="-413" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0002" x="852" y="692" width="13" height="168" frameX="-134" frameY="-242" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0003" x="837" y="646" width="13" height="14" frameX="-135" frameY="-216" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0004" x="639" y="692" width="213" height="251" frameX="-42" frameY="-103" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0005" x="279" y="346" width="261" height="323" frameX="-12" frameY="-69" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0006" x="0" y="346" width="279" height="346" frameX="-5" frameY="-62" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="green0007" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0000" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0001" x="827" y="346" width="10" height="65" frameX="-134" frameY="-413" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0002" x="801" y="346" width="13" height="168" frameX="-134" frameY="-242" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0003" x="863" y="646" width="13" height="14" frameX="-135" frameY="-216" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0004" x="0" y="692" width="213" height="251" frameX="-42" frameY="-103" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0005" x="540" y="346" width="261" height="323" frameX="-12" frameY="-69" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0006" x="558" y="0" width="279" height="346" frameX="-5" frameY="-62" frameWidth="1280" frameHeight="700"/>
+	<SubTexture name="red0007" x="889" y="646" width="4" height="4" frameX="0" frameY="0" frameWidth="1280" frameHeight="700"/>
+</TextureAtlas>

@@ -1,0 +1,24 @@
+{
+	"songs": [
+		["Christrash", "nkel", [215, 70, 109]],
+		["NewTrash", "ako", [81, 139, 255]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "2025ing' Songs",
+	"weekBefore": "",
+	"weekName": "Week 0",
+	"difficulties": [
+		"Normal"
+	],
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

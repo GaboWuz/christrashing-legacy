@@ -1,0 +1,16 @@
+{
+    "tabs": [
+        {
+            "title": "Christrashing' One",
+            "fromWeeks": ["weekOne"]
+        },
+        {
+            "title": "Christrashing' CrashMix",
+            "fromWeeks": ["weekTwo"]
+        },
+        {
+            "title": "Christrashing' Extras",
+            "fromWeeks": ["weekThree"]
+        }
+    ]
+}

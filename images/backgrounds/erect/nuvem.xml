@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nuvem.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="nuvem0000" x="0" y="0" width="924" height="402" frameX="-172" frameY="-52" frameWidth="1200" frameHeight="500"/>
+	<SubTexture name="nuvem0001" x="0" y="402" width="917" height="400" frameX="-177" frameY="-50" frameWidth="1200" frameHeight="500"/>
+	<SubTexture name="nuvem0002" x="924" y="0" width="922" height="345" frameX="-172" frameY="-61" frameWidth="1200" frameHeight="500"/>
+</TextureAtlas>

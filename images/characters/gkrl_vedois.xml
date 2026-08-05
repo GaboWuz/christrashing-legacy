@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gkrl_vedois.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="leeft0000" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0001" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0002" x="957" y="0" width="317" height="459" frameX="-162" frameY="-166" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0003" x="957" y="0" width="317" height="459" frameX="-162" frameY="-166" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0004" x="0" y="463" width="318" height="460" frameX="-163" frameY="-165" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0005" x="0" y="463" width="318" height="460" frameX="-163" frameY="-165" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0006" x="638" y="0" width="319" height="462" frameX="-175" frameY="-159" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0007" x="638" y="0" width="319" height="462" frameX="-175" frameY="-159" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0008" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0009" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0010" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0011" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0012" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0013" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0014" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0015" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0016" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0017" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0018" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="leeft0019" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0000" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0001" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0002" x="1274" y="0" width="321" height="452" frameX="-176" frameY="-170" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0003" x="1274" y="0" width="321" height="452" frameX="-176" frameY="-170" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0004" x="318" y="463" width="322" height="453" frameX="-175" frameY="-169" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0005" x="318" y="463" width="322" height="453" frameX="-175" frameY="-169" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0006" x="319" y="0" width="319" height="462" frameX="-178" frameY="-159" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0007" x="319" y="0" width="319" height="462" frameX="-178" frameY="-159" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0008" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0009" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0010" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0011" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0012" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0013" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0014" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0015" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0016" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0017" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0018" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="riight0019" x="0" y="0" width="319" height="463" frameX="-177" frameY="-158" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0000" x="0" y="923" width="319" height="439" frameX="-171" frameY="-184" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0001" x="0" y="923" width="319" height="439" frameX="-171" frameY="-184" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0002" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0003" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0004" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0005" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0006" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0007" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0008" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0009" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0010" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0011" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0012" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+	<SubTexture name="missed0013" x="1274" y="452" width="319" height="444" frameX="-169" frameY="-179" frameWidth="690" frameHeight="690"/>
+</TextureAtlas>

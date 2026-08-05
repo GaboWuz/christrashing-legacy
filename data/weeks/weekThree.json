@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Stiqui", "dad", [222, 222, 222]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "",
+	"weekBefore": "weekTwo",
+	"weekName": "Week 0.2",
+	"difficulties": [
+		"Normal"
+	],
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

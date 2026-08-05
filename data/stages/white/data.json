@@ -1,0 +1,24 @@
+{
+    "directory": "",
+	"defaultZoom": 0.62,
+	"isPixelStage": false,
+
+    "boyfriend": [ 650, 100 ],
+    "girlfriend": [ 215, 10 ],
+    "opponent": [ -120, 35.7 ],
+    "hide_girlfriend": true,
+
+    "camera_boyfriend": [ -126.2, 5 ],
+    "camera_opponent": [ 300.5, 50 ],
+    "camera_girlfriend": [ 0, 0 ],
+    "camera_speed": 1.12,
+
+    "stageObjects": [
+	    {
+            "id": "white",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0]
+        }
+    ]
+}

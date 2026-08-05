@@ -1,0 +1,30 @@
+{
+    "directory": "",
+	"defaultZoom": 0.62,
+	"isPixelStage": false,
+
+    "boyfriend": [ 650, 30 ],
+    "girlfriend": [ 280, 115 ],
+    "opponent": [ -120, 34.7 ],
+    "hide_girlfriend": false,
+
+    "camera_boyfriend": [ -126.2, 5 ],
+    "camera_opponent": [ 300.5, 50 ],
+    "camera_girlfriend": [ 0, 0 ],
+    "camera_speed": 1.12,
+
+    "stageObjects": [
+	    {
+            "id": "white",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0]
+        },
+        {
+            "id": "pud",
+            "asset": "backgrounds/whithw/pudim",
+            "position": [ 789, 227.5 ],
+            "scale": [ 1.32, 1.32 ]
+        }
+    ]
+}

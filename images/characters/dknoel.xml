@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dknoel.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idlee0000" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0001" x="211" y="716" width="211" height="346" frameX="-191" frameY="-164" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0002" x="0" y="716" width="211" height="349" frameX="-188" frameY="-162" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0003" x="1026" y="0" width="212" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0004" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0005" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0006" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0007" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0008" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idlee0009" x="1026" y="354" width="211" height="354" frameX="-184" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0000" x="555" y="0" width="233" height="383" frameX="-177" frameY="-129" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0001" x="788" y="0" width="238" height="374" frameX="-174" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0002" x="788" y="0" width="238" height="374" frameX="-174" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0003" x="788" y="0" width="238" height="374" frameX="-174" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0004" x="788" y="0" width="238" height="374" frameX="-174" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0005" x="788" y="0" width="238" height="374" frameX="-174" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="cima0006" x="788" y="0" width="238" height="374" frameX="-174" frameY="-137" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0000" x="788" y="374" width="235" height="312" frameX="-194" frameY="-192" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0001" x="555" y="383" width="226" height="314" frameX="-200" frameY="-189" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0002" x="555" y="383" width="226" height="314" frameX="-200" frameY="-189" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0003" x="555" y="383" width="226" height="314" frameX="-200" frameY="-189" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0004" x="555" y="383" width="226" height="314" frameX="-200" frameY="-189" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0005" x="555" y="383" width="226" height="314" frameX="-200" frameY="-189" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="baixo0006" x="555" y="383" width="226" height="314" frameX="-200" frameY="-189" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0000" x="0" y="352" width="264" height="364" frameX="-246" frameY="-152" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0001" x="284" y="352" width="249" height="360" frameX="-245" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0002" x="284" y="352" width="249" height="360" frameX="-245" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0003" x="284" y="352" width="249" height="360" frameX="-245" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0004" x="284" y="352" width="249" height="360" frameX="-245" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0005" x="284" y="352" width="249" height="360" frameX="-245" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="direita0006" x="284" y="352" width="249" height="360" frameX="-245" frameY="-155" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0000" x="0" y="0" width="284" height="352" frameX="-176" frameY="-160" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0001" x="284" y="0" width="271" height="352" frameX="-181" frameY="-159" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0002" x="284" y="0" width="271" height="352" frameX="-181" frameY="-159" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0003" x="284" y="0" width="271" height="352" frameX="-181" frameY="-159" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0004" x="284" y="0" width="271" height="352" frameX="-181" frameY="-159" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0005" x="284" y="0" width="271" height="352" frameX="-181" frameY="-159" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="esquerda0006" x="284" y="0" width="271" height="352" frameX="-181" frameY="-159" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

@@ -1,0 +1,166 @@
+{
+    "directory": "",
+	"defaultZoom": 0.62,
+	"isPixelStage": false,
+
+    "boyfriend": [ 650, 30 ],
+    "girlfriend": [ 300, 115 ],
+    "opponent": [ -60, 34.7 ],
+    "hide_girlfriend": false,
+
+    "camera_boyfriend": [ -126.2, 5 ],
+    "camera_opponent": [ 250.5, 50 ],
+    "camera_girlfriend": [ 0, 0 ],
+    "camera_speed": 1.12,
+
+    "stageObjects": [
+	    {
+            "id": "eh",
+            "colour": "0xFF231752",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0]
+        },
+        {
+            "id": "grandMoon",
+            "asset": "backgrounds/erect/uff",
+            "position": [ -2100, -2100 ],
+            "scale": [ 10.50, 10.50 ],
+            "alpha": 0
+        },
+        {
+            "id": "lua",
+            "asset": "backgrounds/erect/lua",
+            "scrollFactor": [ 0.67, 0.71 ],
+            "position": [ 1290, -240 ],
+            "scale": [ 1.32, 1.32 ]
+        },
+        {
+            "id": "red",
+            "asset": "backgrounds/fogos",
+            "scrollFactor": [ 0.67, 0.69 ],
+            "position": [ -490, -200 ],
+            "scale": [ 0.79, 0.79 ],
+            "alpha": 0,
+            "animations": [
+	            {
+                    "anim": "nada",
+                    "name": "nada",
+                    "fps": 12,
+                    "loop": false
+                },
+                {
+                    "anim": "idle",
+                    "name": "red",
+                    "fps": 12,
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "pink",
+            "asset": "backgrounds/fogos",
+            "scrollFactor": [ 0.67, 0.69 ],
+            "position": [ -350, 570 ],
+            "scale": [ 0.79, 0.79 ],
+            "alpha": 0,
+            "animations": [
+	            {
+                    "anim": "nada",
+                    "name": "nada",
+                    "fps": 12,
+                    "loop": false
+                },
+                {
+                    "anim": "idle",
+                    "name": "pink",
+                    "fps": 12,
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "yellow",
+            "asset": "backgrounds/fogos",
+            "scrollFactor": [ 0.67, 0.69 ],
+            "position": [ 600, -210 ],
+            "scale": [ 0.79, 0.79 ],
+            "alpha": 0,
+            "animations": [
+	            {
+                    "anim": "nada",
+                    "name": "nada",
+                    "fps": 12,
+                    "loop": false
+                },
+                {
+                    "anim": "idle",
+                    "name": "yellow",
+                    "fps": 12,
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "green",
+            "asset": "backgrounds/fogos",
+            "scrollFactor": [ 0.67, 0.69 ],
+            "position": [ 1370, 570 ],
+            "scale": [ 0.79, 0.79 ],
+            "alpha": 0,
+            "animations": [
+	            {
+                    "anim": "nada",
+                    "name": "nada",
+                    "fps": 12,
+                    "loop": false
+                },
+                {
+                    "anim": "idle",
+                    "name": "green",
+                    "fps": 12,
+                    "loop": false
+                }
+            ]
+        },
+        {
+            "id": "un",
+            "asset": "backgrounds/erect/nuvem",
+            "scrollFactor": [ 0.89, 0.87 ],
+            "position": [ -170, 400 ],
+            "scale": [ 1.32, 1.32 ],
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "nuvem",
+                    "fps": 2,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "pud",
+            "asset": "backgrounds/whithw/pudim",
+            "position": [ 789, 227.5 ],
+            "scale": [ 1.32, 1.32 ]
+        },
+        {
+            "id": "eehh",
+            "colour": "0xFF231752",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0],
+            "blend": "add",
+            "alpha": 0.21,
+            "zIndex": 9998
+        },
+        {
+            "id": "black",
+            "colour": "0xFF000000",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0],
+            "zIndex": 9999
+        }
+    ]
+}

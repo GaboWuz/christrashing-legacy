@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				4
+			],
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "esquerda"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				1
+			],
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "baixo"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				3
+			],
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "cima"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				-2
+			],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "direita"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "idlee"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dknoel",
+	"position": [
+		-20,
+		160
+	],
+	"healthicon": "nkel",
+	"flip_x": false,
+	"healthbar_colors": [
+		215,
+		70,
+		109
+	],
+	"camera_position": [
+		-110,
+		0
+	],
+	"sing_duration": 4.1,
+	"scale": 1.2
+}

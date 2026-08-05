@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "riight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "leeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "missed",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gkrl_vedois",
+	"position": [
+		-20,
+		120
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		69,
+		69,
+		69
+	],
+	"camera_position": [
+		-200,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

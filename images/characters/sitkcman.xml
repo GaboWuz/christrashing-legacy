@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sitkcman.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="sitc rgh0000" x="199" y="0" width="200" height="354" frameX="-156" frameY="-79" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="sitc lfi0000" x="0" y="0" width="199" height="356" frameX="-143" frameY="-77" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="sitc chupa0000" x="0" y="356" width="176" height="357" frameX="-160" frameY="-76" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="sitc dou0000" x="399" y="0" width="204" height="335" frameX="-149" frameY="-98" frameWidth="500" frameHeight="500"/>
+	<SubTexture name="sitc idl0000" x="603" y="0" width="184" height="350" frameX="-157" frameY="-82" frameWidth="500" frameHeight="500"/>
+</TextureAtlas>

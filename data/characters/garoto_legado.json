@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				3,
+				-8
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "esquerda",
+			"indices": []
+		},
+		{
+			"offsets": [
+				7,
+				-4
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "baixo",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 12,
+			"name": "cima",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				-4
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "direita",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 12,
+			"name": "idlee",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/idkanonov",
+	"position": [
+		-20,
+		150
+	],
+	"healthicon": "ako",
+	"flip_x": false,
+	"healthbar_colors": [
+		81,
+		139,
+		255
+	],
+	"camera_position": [
+		-140,
+		-30
+	],
+	"sing_duration": 4.1,
+	"scale": 1.2
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gkrl.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idledocacete0000" x="0" y="328" width="216" height="328" frameX="-209" frameY="-217" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idledocacete0001" x="223" y="0" width="223" height="326" frameX="-190" frameY="-220" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idledocacete0002" x="0" y="0" width="223" height="328" frameX="-192" frameY="-218" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idledocacete0003" x="446" y="0" width="217" height="327" frameX="-206" frameY="-218" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="idledocacete0004" x="0" y="328" width="216" height="328" frameX="-209" frameY="-217" frameWidth="640" frameHeight="640"/>
+</TextureAtlas>

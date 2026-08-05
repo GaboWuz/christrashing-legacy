@@ -1,0 +1,9 @@
+{
+    "name": "Christrashing Oneshot'",
+    "description": "Nightmare Vision, Yeah!",
+    "global": false,
+
+    "windowTitle": "FNF' Christrashing'",
+    "iconFile": "UI/icon64",
+    "defaultTransition": "swipe"
+}
