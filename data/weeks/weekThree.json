@@ -13,9 +13,7 @@
 	"storyName": "",
 	"weekBefore": "weekTwo",
 	"weekName": "Week 0.2",
-	"difficulties": [
-		"Normal"
-	],
+	"difficulties": "Normal",
 	"startUnlocked": true,
 
 	"hideStoryMode": true,

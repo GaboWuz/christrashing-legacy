@@ -1,7 +1,8 @@
 {
 	"songs": [
 		["Christrash", "nkel", [215, 70, 109]],
-		["NewTrash", "ako", [81, 139, 255]]
+		["NewTrash", "ako", [81, 139, 255]],
+    ["SideApart", "dad", [81, 139, 255]]
 	],
 
 	"weekCharacters": [
@@ -14,9 +15,7 @@
 	"storyName": "2025ing' Songs",
 	"weekBefore": "",
 	"weekName": "Week 0",
-	"difficulties": [
-		"Normal"
-	],
+	"difficulties": "Normal",
 	"startUnlocked": true,
 
 	"hideStoryMode": false,

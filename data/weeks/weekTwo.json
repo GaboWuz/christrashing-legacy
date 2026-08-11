@@ -1,7 +1,8 @@
 {
 	"songs": [
 		["Likeded", "nkel", [215, 70, 109]],
-		["Interesting", "ako", [81, 139, 255]]
+		["Interesting", "ako", [81, 139, 255]],
+    ["IEK", "dad", [81, 139, 255]]
 	],
 
 	"weekCharacters": [
@@ -14,9 +15,7 @@
 	"storyName": "",
 	"weekBefore": "weekOne",
 	"weekName": "Week 0.1",
-	"difficulties": [
-		"Normal"
-	],
+	"difficulties": "Crash",
 	"startUnlocked": true,
 
 	"hideStoryMode": true,
