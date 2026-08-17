@@ -20,7 +20,7 @@ function onCreatePost() {
 
     ClientPrefs.scoreZoom = false;
 
-    bgHealth = new FlxSprite(0, 0).loadGraphic(Paths.image('UI/heal'));
+    bgHealth = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/heal'));
     bgHealth.cameras = [camHUD];
     bgHealth.screenCenter(FlxAxes.X);
     bgHealth.y = playHUD.healthBar.y - 60;
@@ -41,7 +41,7 @@ function onCreatePost() {
     customTimeBar.createGradientBar([0xFFFFF1A4, 0xFFFFF6B8], [0xFFFFFFFF, 0xFFFFFFFF], 1, 90, true, 0xFF000000, 3);
     customTimeBar.updateBar();
 
-    var iconPath = ClientPrefs.downScroll ? 'UI/stupidgagbis-downscroll' : 'UI/stupidgagbis';
+    var iconPath = ClientPrefs.downScroll ? 'ui/stupidgagbis-downscroll' : 'ui/stupidgagbis';
     iconGag = new FlxSprite(-18.5, ClientPrefs.downScroll ? 110 : 0).loadGraphic(Paths.image(iconPath));
     iconGag.cameras = [camHUD];
     iconGag.setGraphicSize(Std.int(iconGag.height * 0.9));

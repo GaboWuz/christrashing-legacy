@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mainConfigs.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="normal0000" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0001" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0002" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0003" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0004" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0005" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0006" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0007" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0008" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0009" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0010" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0011" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0012" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0013" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0014" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0015" x="0" y="0" width="408" height="332" frameX="-7" frameY="-31" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0016" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0017" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0018" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0019" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0020" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0021" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0022" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0023" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0024" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0025" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0026" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0027" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0028" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0029" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0030" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="normal0031" x="0" y="332" width="408" height="322" frameX="-7" frameY="-41" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0000" x="408" y="332" width="408" height="318" frameX="-7" frameY="-45" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0001" x="408" y="332" width="408" height="318" frameX="-7" frameY="-45" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0002" x="408" y="332" width="408" height="318" frameX="-7" frameY="-45" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0003" x="408" y="0" width="408" height="323" frameX="-7" frameY="-40" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0004" x="408" y="0" width="408" height="323" frameX="-7" frameY="-40" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0005" x="408" y="0" width="408" height="323" frameX="-7" frameY="-40" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0006" x="408" y="0" width="408" height="323" frameX="-7" frameY="-40" frameWidth="420" frameHeight="400"/>
+	<SubTexture name="select0007" x="408" y="0" width="408" height="323" frameX="-7" frameY="-40" frameWidth="420" frameHeight="400"/>
+</TextureAtlas>
