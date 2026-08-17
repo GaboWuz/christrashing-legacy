@@ -3,28 +3,41 @@
 	"defaultZoom": 0.62,
 	"isPixelStage": false,
 
-    "boyfriend": [ 650, 30 ],
-    "girlfriend": [ 280, 115 ],
-    "opponent": [ -120, 34.7 ],
+    "boyfriend": [650, 30],
+    "girlfriend": [280, 115],
+    "opponent": [-120, 34.7],
     "hide_girlfriend": false,
 
-    "camera_boyfriend": [ -126.2, 5 ],
-    "camera_opponent": [ 300.5, 50 ],
-    "camera_girlfriend": [ 0, 0 ],
+    "camera_boyfriend": [-126.2, 5],
+    "camera_opponent": [300.5, 50],
+    "camera_girlfriend": [0, 0],
     "camera_speed": 1.12,
 
     "stageObjects": [
-	    {
+	      {
             "id": "white",
             "scale": [6969, 6969],
             "position": [-2000, -2500],
-            "scrollFactor": [0,0]
+            "scrollFactor": [0, 0]
+        },
+        {
+            "id": "grounds",
+            "asset": "backgrounds/whithw/ground",
+            "position": [-750, 650],
+            "scale": [2.7, 1.4]
+        },
+        {
+            "id": "sun",
+            "asset": "backgrounds/whithw/sol",
+            "position": [-700, -300],
+            "scale": [1.32, 1.32],
+            "scrollFactor": [0.7, 0.7]
         },
         {
             "id": "pud",
             "asset": "backgrounds/whithw/pudim",
-            "position": [ 789, 227.5 ],
-            "scale": [ 1.32, 1.32 ]
+            "position": [789, 227.5],
+            "scale": [1.32, 1.32]
         }
     ]
 }

@@ -11,11 +11,29 @@ var BFmainIcons:Array<FlxSprite> = [];
 var currentSpriteIndex:Int = 0;
 var currentBFIndex:Int = 0;
 var currentLaneIndex:Int = 0;
+var currentlolIndex:Int = 0;
 
 var customBg:FlxSprite;
 var cinematicTop:FlxSprite;
 var cinematicBottom:FlxSprite;
 var darkFade:FlxSprite; 
+
+var cenaone:FlxSprite;
+var cenatwo:FlxSprite;
+var cenathree:FlxSprite;
+var cenafour:FlxSprite;
+
+var bfcenaone:FlxSprite;
+var bfcenatwo:FlxSprite;
+
+var beef:FlxSprite;
+var ideek:FlxSprite;
+
+var thingone:FlxSprite;
+var bftwothing:FlxSprite;
+var thingthree:FlxSprite;
+
+var bftwothing:FlxSprite;
 
 function createClones(images:Array<String>, targetArray:Array<FlxSprite>) {
     for (i in 0...images.length) {
@@ -84,7 +102,75 @@ function onLoad() {
     cinematicBottom.cameras = [camHUD];
     cinematicBottom.visible = false;
     add(cinematicBottom);
+
+    cenaone = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/one'));
+    cenaone.cameras = [camHUD]; 
+    cenaone.updateHitbox();
+    cenaone.alpha = 0.001;
+    add(cenaone);
+
+    cenatwo = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/two'));
+    cenatwo.cameras = [camHUD]; 
+    cenatwo.updateHitbox();
+    cenatwo.alpha = 0.001;
+    add(cenatwo);
+
+    bfcenaone = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/onebf'));
+    bfcenaone.cameras = [camHUD]; 
+    bfcenaone.updateHitbox();
+    bfcenaone.alpha = 0.001;
+    add(bfcenaone);
+
+    bfcenatwo = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/twobf'));
+    bfcenatwo.cameras = [camHUD]; 
+    bfcenatwo.updateHitbox();
+    bfcenatwo.alpha = 0.001;
+    add(bfcenatwo);
     
+    cenathree = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/three'));
+    cenathree.cameras = [camHUD]; 
+    cenathree.updateHitbox();
+    cenathree.alpha = 0.001;
+    add(cenathree);
+  
+    cenafour = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/four'));
+    cenafour.cameras = [camHUD]; 
+    cenafour.updateHitbox();
+    cenafour.alpha = 0.001;
+    add(cenafour);
+
+    beef = new FlxSprite(0, 190).loadGraphic(Paths.image('ui/events/loopingbf'));
+    beef.cameras = [camHUD]; 
+    beef.updateHitbox();
+    beef.x = (FlxG.width - beef.width) / 2;
+    beef.visible = false;
+    add(beef);
+
+    ideek = new FlxSprite(0, 130).loadGraphic(Paths.image('ui/events/loopingdk'));
+    ideek.cameras = [camHUD]; 
+    ideek.updateHitbox();
+    ideek.x = (FlxG.width - ideek.width) / 2;
+    ideek.visible = false;
+    add(ideek);
+
+    thingone = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/onething'));
+    thingone.cameras = [camHUD]; 
+    thingone.updateHitbox();
+    thingone.alpha = 0.001;
+    add(thingone);
+ 
+    bftwothing = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/twothingbf'));
+    bftwothing.cameras = [camHUD]; 
+    bftwothing.updateHitbox();
+    bftwothing.alpha = 0.001;
+    add(bftwothing);
+
+    thingthree = new FlxSprite(0, 0).loadGraphic(Paths.image('ui/events/cenarios/threething'));
+    thingthree.cameras = [camHUD]; 
+    thingthree.updateHitbox();
+    thingthree.alpha = 0.001;
+    add(thingthree);
+
     createClones(eventImages, eventSprites);
     createClones(BFeventImages, BFeventSprites);
     
@@ -101,7 +187,7 @@ function onLoad() {
 }
 
 function onBeatHit() {
-    if (curStep >= 768 && curStep < 1024) {
+    if (curStep >= 768 && curStep < 1151) {
         cinematicTop.y = -80; 
         FlxTween.tween(cinematicTop, {y: -100}, 0.3, {ease: FlxEase.quadOut});
         
@@ -117,7 +203,7 @@ function onBeatHit() {
         currentSpriteIndex++;
     }
 
-    if (curStep >= 895 && curStep < 1024 && currentBFIndex < BFeventSprites.length) {
+    if (curStep >= 1023 && curStep < 1151 && currentBFIndex < BFeventSprites.length) {
         var cloneBF = BFeventSprites[currentBFIndex];
         cloneBF.visible = true;
         cloneBF.scale.set(0.7, 0.7);
@@ -126,7 +212,9 @@ function onBeatHit() {
     }
 
     var isIDKTurn = (curStep >= 831 && curStep < 896);
-    var isBFTurn = (curStep >= 959 && curStep < 1024);
+    var isBFTurn = (curStep >= 1087 && curStep < 1151);
+
+    var goofyThing = (curStep >= 896 && curStep < 1023 || curStep >= 1151 && curStep < 1279);
 
     if (isIDKTurn || isBFTurn) {
         for (i in 0...4) {
@@ -143,6 +231,72 @@ function onBeatHit() {
             }
         }
         currentLaneIndex = (currentLaneIndex + 1) % 4;
+    }
+
+    var bfThing = (curStep >= 1151 && curStep < 1279);
+
+    if (goofyThing) {
+      currentlolIndex = (currentlolIndex + 1) % 4;
+
+      if (currentlolIndex == 0) {
+        if (bfThing) {
+          bfcenaone.alpha = 1;
+          bfcenatwo.alpha = 0.001;
+          bftwothing.alpha = 0.001;
+        } else {
+          cenaone.alpha = 1;
+          thingone.alpha = 1;
+          cenatwo.alpha = 0.001;
+        }
+        cenathree.alpha = 0.001;
+        thingthree.alpha = 0.001;
+        cenafour.alpha = 0.001;
+      }
+  
+      if (currentlolIndex == 1) {
+        if (bfThing) {
+          bfcenaone.alpha = 0.001;
+          bfcenatwo.alpha = 1;
+          bftwothing.alpha = 1;
+        } else {
+          cenaone.alpha = 0.001;
+          thingone.alpha = 0.001;
+          cenatwo.alpha = 1;
+        }
+        cenathree.alpha = 0.001;
+        thingthree.alpha = 0.001;
+        cenafour.alpha = 0.001;
+      }
+  
+      if (currentlolIndex == 2) {
+        if (bfThing) {
+          bfcenaone.alpha = 0.001;
+          bfcenatwo.alpha = 0.001;
+          bftwothing.alpha = 0.001;
+        } else {
+          cenaone.alpha = 0.001;
+          thingone.alpha = 0.001;
+          cenatwo.alpha = 0.001;
+        }
+        cenathree.alpha = 1;
+        thingthree.alpha = 1;
+        cenafour.alpha = 0.001;
+      }
+  
+      if (currentlolIndex == 3) {
+        if (bfThing) {
+          bfcenaone.alpha = 0.001;
+          bfcenatwo.alpha = 0.001;
+          bftwothing.alpha = 0.001;
+        } else {
+          cenaone.alpha = 0.001;
+          thingone.alpha = 0.001;
+          cenatwo.alpha = 0.001;
+        };
+        cenathree.alpha = 0.001;
+        thingthree.alpha = 0.001;
+        cenafour.alpha = 1;
+      }
     }
 }
 
@@ -167,27 +321,68 @@ function onStepHit() {
         cinematicBottom.visible = true;
     }
 
-    if (curStep == 896) {        
+    if (curStep == 896) {
+        cenaone.alpha = 1;
+        thingone.alpha = 1;
+        ideek.visible = true;
+        
         currentLaneIndex = 0; 
         hideSprites(eventSprites);
         hideSprites(laneSprites);
         hideSprites(mainIcons);
     }
 
-    if (curStep == 1024) {
+    if (curStep == 1023) {
+        ideek.visible = false;
+        bfcenaone.alpha = 0.001;
+        bfcenatwo.alpha = 0.001;
+        bftwothing.alpha = 0.001;
+      
+        cenaone.alpha = 0.001;
+        thingone.alpha = 0.001;
+        cenatwo.alpha = 0.001;
+        
+        cenathree.alpha = 0.001;
+        thingthree.alpha = 0.001;
+        cenafour.alpha = 0.001;
+    }
+
+    if (curStep == 1151) {
+        bfcenaone.alpha = 1;
+        beef.visible = true;
+        
+        hideSprites(laneSprites);
+        hideSprites(BFmainIcons);
+        hideSprites(BFeventSprites);
+    }
+
+    if (curStep == 1215) {
+        // se você quiser que esse porra volte Gabo
+        // oke star :eyes:
+      
+        modManager.setValue("stealth", 0, 1);
+        modManager.setValue("dark", 0, 1);
+        modManager.setValue("opponentSwap", 0, 0);
+    }
+
+    if (curStep == 1279) {
         customBg.visible = false;
         cinematicTop.visible = false;
         cinematicBottom.visible = false;
+        beef.visible = false;
+      
+        
+        bfcenaone.alpha = 0.001;
+        bfcenatwo.alpha = 0.001;
+        bftwothing.alpha = 0.001;
+        cenathree.alpha = 0.001;
+        thingthree.alpha = 0.001;
+        cenafour.alpha = 0.001;
         
         hideSprites(laneSprites);
         hideSprites(BFmainIcons);
         hideSprites(BFeventSprites);
         
         camHUD.flash(0xFFFFFFFF, 1.0);
-        
-        // se você quiser que esse porra volte Gabo
-        // modManager.setValue("stealth", 0, 1);
-        // modManager.setValue("dark", 0, 1);
-        // modManager.setValue("opponentSwap", 0, 0);
     }
 }
