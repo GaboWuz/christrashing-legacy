@@ -38,6 +38,15 @@
             "asset": "backgrounds/whithw/pudim",
             "position": [789, 227.5],
             "scale": [1.32, 1.32]
+        },
+        {
+            "id": "grad",
+            "asset": "backgrounds/whithw/gradient",
+            "position": [-700, -300],
+            "blend": "add",
+            "alpha": 0.35,
+            "zIndex": 100,
+            "scale": [2.7, 2.7]
         }
     ]
 }

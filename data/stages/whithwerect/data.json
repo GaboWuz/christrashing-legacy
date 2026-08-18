@@ -124,34 +124,54 @@
             ]
         },
         {
+            "id": "nu",
+            "asset": "backgrounds/erect/nuvemapart",
+            "position": [-370, 720],
+            "scrollFactor": [0.8, 0.8],
+            "scale": [1.8, 1.8]
+        },
+        {
             "id": "un",
             "asset": "backgrounds/erect/nuvem",
-            "scrollFactor": [ 0.89, 0.87 ],
-            "position": [ -170, 400 ],
-            "scale": [ 1.32, 1.32 ],
+            "position": [100, 710],
+            "scale": [1.45, 1.45]
+        },
+        {
+            "id": "pud",
+            "asset": "backgrounds/whithw/pudim",
+            "position": [789, 227.5],
+            "scale": [1.32, 1.32]
+        },
+        {
+            "id": "front",
+            "asset": "backgrounds/erect/nuvenfront",
+            "position": [-260, 220],
+            "scale": [1.5, 1.5],
+            "zIndex": 9997,
+            "scrollFactor": [1, 1],
             "animations": [
                 {
                     "anim": "idle",
-                    "name": "nuvem",
+                    "name": "nu",
                     "fps": 2,
                     "loop": true
                 }
             ]
         },
         {
-            "id": "pud",
-            "asset": "backgrounds/whithw/pudim",
-            "position": [ 789, 227.5 ],
-            "scale": [ 1.32, 1.32 ]
+            "id": "mm",
+            "asset": "menus/mainMenu/background/videogabos",
+            "position": [0, 0],
+            "scale": [1.025, 1.05]
         },
         {
             "id": "eehh",
             "colour": "0xFF231752",
             "scale": [6969, 6969],
             "position": [-2000, -2500],
-            "scrollFactor": [0,0],
+            "scrollFactor": [0, 0],
             "blend": "add",
-            "alpha": 0.21,
+            "alpha": 0.6,
             "zIndex": 9998
         },
         {

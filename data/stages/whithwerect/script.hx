@@ -11,6 +11,67 @@ var greenCooldown:Int = 0;
 
 var particleEmitter:FlxEmitter;
 
+import funkin.game.shaders.DropShadowShader;
+
+var rimSprites:Array<Dynamic> = [];
+var rimShaders:Array<Dynamic> = [];
+var rimFrames:Array<Dynamic> = [];
+
+function makeRimForSpr(spr, angle:Float = 0)
+{
+	if (spr == null || spr.frame == null)
+		return null;
+
+	var rim = new DropShadowShader();
+
+	rim.setAdjustColor(0, 0, 0, 0);
+	rim.color = 0xFFFFFFFF;
+	rim.angle = angle;
+
+	rim.antialiasAmt = 1;
+
+	rim.attachedSprite = spr;
+	spr.shader = rim;
+
+	rimSprites.push(spr);
+	rimShaders.push(rim);
+	rimFrames.push(spr.frame);
+
+	return rim;
+}
+
+function onCreatePost()
+{
+	var dadRim = makeRimForSpr(dad, 10);
+	if (dadRim != null)
+		dadRim.threshold = 0.2;
+
+  FlxTween.tween(un, {y: un.y + 18}, 0.9, {ease: FlxEase.quadInOut, type: 4, loop: true});
+  FlxTween.tween(pud, {y: pud.y + 18}, 0.9, {ease: FlxEase.quadInOut, type: 4, loop: true});
+  FlxTween.tween(boyfriendGroup, {y: boyfriendGroup.y + 18}, 0.9, {ease: FlxEase.quadInOut, type: 4, loop: true});
+  FlxTween.tween(gfGroup, {y: gfGroup.y + 18}, 0.9, {ease: FlxEase.quadInOut, type: 4, loop: true});
+  FlxTween.tween(dadGroup, {y: dadGroup.y + 18}, 0.9, {ease: FlxEase.quadInOut, type: 4, loop: true});
+
+  mm.cameras = [camHUD];
+  mm.x = (FlxG.width - mm.width) / 2;
+  mm.y = (FlxG.height - mm.height) / 2;
+}
+
+function onUpdatePost(elapsed:Float)
+{
+	for (i in 0...rimShaders.length)
+	{
+		var spr = rimSprites[i];
+
+		// Atualiza somente quando o PNG+XML troca de frame.
+		if (spr != null && spr.frame != null && rimFrames[i] != spr.frame)
+		{
+			rimShaders[i].updateFrameInfo(spr.frame);
+			rimFrames[i] = spr.frame;
+		}
+	}
+}
+
 function onLoad() {
     particleEmitter = new FlxEmitter(-500, 1000, 20);
     particleEmitter.width = 2200;
