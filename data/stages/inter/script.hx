@@ -1,8 +1,7 @@
-import flixel.math.FlxMath;
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
-import flixel.effects.particles.FlxParticle;
 import flixel.effects.particles.FlxEmitterMode;
+import flixel.FlxSprite;
 
 var particleEmitter:FlxEmitter;
 var flash:FlxSprite;
@@ -12,25 +11,25 @@ function onLoad() {
     particleEmitter.width = 2200;
     particleEmitter.launchMode = FlxEmitterMode.SQUARE;
     
-    particleEmitter.velocity.set(0, -680, 0, -680, 0, 0, 0, 0);
+    particleEmitter.velocity.set(0, -680, 0, -680);
     particleEmitter.alpha.set(0.15, 0.15, 0.45, 0.45);
     particleEmitter.lifespan.set(5, 5);
+    
+    particleEmitter.scale.set(0.4, 0.4, 0.4, 0.4);
     
     particleEmitter.loadParticles(Paths.image("backgrounds/bruh"), 20, 0, false);
     
     for (particle in particleEmitter.members) {
-        particle.setGraphicSize(0.01, 0.01);
-        particle.updateHitbox();
         particle.scrollFactor.set(0.1, 0.1);
         particle.antialiasing = false;
+        particle.updateHitbox();
     }
     particleEmitter.zIndex = 69;
     
     stage.add(particleEmitter);
     particleEmitter.start(false, 0.12);
 
-    flash = new FlxSprite(0, 0);
-    flash.makeGraphic(1280, 720, 0xFFFFFFFF);
+    flash = new FlxSprite(0, 0).makeGraphic(1280, 720, 0xFFFFFFFF);
     flash.scrollFactor.set();
     flash.scale.set(2, 2);
     flash.zIndex = 10000;
@@ -39,49 +38,54 @@ function onLoad() {
 }
 
 function badApple(mode:String) {
-    switch(mode) {
-        case "six":
-            boyfriend.color = 0xFF000000;
-            dad.color = 0xFF000000;
-            eehh.alpha = 0;
-            uff.alpha = 0;
-            uhhh.alpha = 1;
-            doFlash();
-        case "seven":
-            boyfriend.color = 0xFFFFFFFF;
-            dad.color = 0xFFFFFFFF;
-            eehh.alpha = 0.3;
-            uff.alpha = 1;
-            uhhh.alpha = 0;
-            doFlash();
+    if (mode == "six") {
+        if (boyfriend != null) boyfriend.color = 0xFF000000;
+        if (dad != null) dad.color = 0xFF000000;
+        if (eehh != null) eehh.alpha = 0;
+        if (uff != null) uff.alpha = 0;
+        if (uhhh != null) uhhh.alpha = 1;
+        doFlash();
+    } else if (mode == "seven") {
+        if (boyfriend != null) boyfriend.color = 0xFFFFFFFF;
+        if (dad != null) dad.color = 0xFFFFFFFF;
+        if (eehh != null) eehh.alpha = 0.3;
+        if (uff != null) uff.alpha = 1;
+        if (uhhh != null) uhhh.alpha = 0;
+        doFlash();
     }
 }
 
 function doFlash() {
-    flash.alpha = 1;
-    FlxTween.tween(flash, {alpha: 0}, 1, {ease: FlxEase.linear});
+    if (flash != null) {
+        FlxTween.cancelTweensOf(flash);
+        flash.alpha = 1;
+        FlxTween.tween(flash, {alpha: 0}, 1, {ease: FlxEase.linear});
+    }
 }
 
 function doStageAlpha(mode:String) {
-    switch(mode) {
-        case "gex":
-            FlxTween.tween(uff, {alpha: 0.34}, 0.2, {ease: FlxEase.linear});
-            FlxTween.tween(eehh, {alpha: 0.25}, 0.2, {ease: FlxEase.linear});
-            FlxTween.tween(eh, {alpha: 0.9}, 0.2, {ease: FlxEase.linear});
-        case "say":
-            FlxTween.tween(uff, {alpha: 1}, 0.35, {ease: FlxEase.linear});
-            FlxTween.tween(eehh, {alpha: 0.3}, 0.35, {ease: FlxEase.linear});
-            FlxTween.tween(eh, {alpha: 1}, 0.35, {ease: FlxEase.linear});
-            FlxTween.tween(cao, {alpha: 1}, 0.35, {ease: FlxEase.linear});
-            FlxTween.tween(janel, {alpha: 1}, 0.35, {ease: FlxEase.linear});
+    var tweenSet = {ease: FlxEase.linear};
+    
+    if (mode == "gex") {
+        if (uff != null) FlxTween.tween(uff, {alpha: 0.34}, 0.2, tweenSet);
+        if (eehh != null) FlxTween.tween(eehh, {alpha: 0.25}, 0.2, tweenSet);
+        if (eh != null) FlxTween.tween(eh, {alpha: 0.9}, 0.2, tweenSet);
+    } else if (mode == "say") {
+        if (uff != null) FlxTween.tween(uff, {alpha: 1}, 0.35, tweenSet);
+        if (eehh != null) FlxTween.tween(eehh, {alpha: 0.3}, 0.35, tweenSet);
+        if (eh != null) FlxTween.tween(eh, {alpha: 1}, 0.35, tweenSet);
+        if (cao != null) FlxTween.tween(cao, {alpha: 1}, 0.35, tweenSet);
+        if (janel != null) FlxTween.tween(janel, {alpha: 1}, 0.35, tweenSet);
     }
 }
 
 function fadeProps(a1:Float, a2:Float) {
-    FlxTween.tween(eehh, {alpha: a1}, 0.2, {ease: FlxEase.linear});
-    FlxTween.tween(eh, {alpha: a2}, 0.2, {ease: FlxEase.linear});
-    FlxTween.tween(cao, {alpha: a2}, 0.2, {ease: FlxEase.linear});
-    FlxTween.tween(janel, {alpha: a2}, 0.2, {ease: FlxEase.linear});
+    var tweenSet = {ease: FlxEase.linear};
+    
+    if (eehh != null) FlxTween.tween(eehh, {alpha: a1}, 0.2, tweenSet);
+    if (eh != null) FlxTween.tween(eh, {alpha: a2}, 0.2, tweenSet);
+    if (cao != null) FlxTween.tween(cao, {alpha: a2}, 0.2, tweenSet);
+    if (janel != null) FlxTween.tween(janel, {alpha: a2}, 0.2, tweenSet);
 }
 
 function onBeatHit() {
