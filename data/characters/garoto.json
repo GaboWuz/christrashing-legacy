@@ -54,7 +54,18 @@
 			"fps": 24,
 			"name": "right",
 			"indices": []
-		}
+		},
+    {
+			"offsets": [
+				295,
+				15
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "birdbrain",
+			"loop": false,
+			"name": "anim"
+    }
 	],
 	"no_antialiasing": false,
 	"ghosts_enabled": false,
@@ -73,8 +84,8 @@
 	"flip_x": false,
 	"healthbar_colour": -11432961,
 	"camera_position": [
-		-100,
-		0
+		-360,
+		-40
 	],
 	"gameover_loop_sound": null,
 	"sing_duration": 4,

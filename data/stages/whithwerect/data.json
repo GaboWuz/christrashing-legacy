@@ -3,13 +3,13 @@
 	"defaultZoom": 0.62,
 	"isPixelStage": false,
 
-    "boyfriend": [ 650, 30 ],
-    "girlfriend": [ 300, 115 ],
-    "opponent": [ -60, 34.7 ],
+    "boyfriend": [650, 30],
+    "girlfriend": [300, 115],
+    "opponent": [-60, 34.7],
     "hide_girlfriend": false,
 
-    "camera_boyfriend": [ -126.2, 5 ],
-    "camera_opponent": [ 250.5, 50 ],
+    "camera_boyfriend": [-126.2, 5],
+    "camera_opponent": [250.5, 50],
     "camera_girlfriend": [ 0, 0 ],
     "camera_speed": 1.12,
 
@@ -24,16 +24,16 @@
         {
             "id": "grandMoon",
             "asset": "backgrounds/erect/uff",
-            "position": [ -2100, -2100 ],
+            "position": [-2100, -2100],
             "scale": [ 10.50, 10.50 ],
             "alpha": 0
         },
         {
             "id": "lua",
             "asset": "backgrounds/erect/lua",
-            "scrollFactor": [ 0.67, 0.71 ],
-            "position": [ 1290, -240 ],
-            "scale": [ 1.32, 1.32 ]
+            "scrollFactor": [0.67, 0.71],
+            "position": [1290, -240],
+            "scale": [1.32, 1.32]
         },
         {
             "id": "red",
@@ -122,13 +122,6 @@
                     "loop": false
                 }
             ]
-        },
-        {
-            "id": "nu",
-            "asset": "backgrounds/erect/nuvemapart",
-            "position": [-370, 720],
-            "scrollFactor": [0.8, 0.8],
-            "scale": [1.8, 1.8]
         },
         {
             "id": "un",

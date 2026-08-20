@@ -112,6 +112,7 @@ function onBeatHit() {
         case 96: defaultCamZoom = 0.6;
         case 125: defaultCamZoom = 0.67;
         case 128: defaultCamZoom = 0.7;
+        case 160: defaultCamZoom = 0.75;
         case 192: defaultCamZoom = 0.875;
         case 224: defaultCamZoom = 0.92;
         case 256: defaultCamZoom = 0.94;
