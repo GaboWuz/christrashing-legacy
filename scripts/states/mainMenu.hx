@@ -42,7 +42,7 @@ function onLoad() {
         var item = new FlxSprite(0, 0);
         item.frames = Paths.getSparrowAtlas('menus/mainMenu/' + menuItems[i]);
         item.animation.addByPrefix('normal', 'normal', 24, true);
-        item.animation.addByPrefix('selected', 'select', 24, true);
+        item.animation.addByPrefix('selected', 'select', 24, false);
         item.animation.play('normal');
         item.updateHitbox();
         

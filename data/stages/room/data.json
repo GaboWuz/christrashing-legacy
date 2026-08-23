@@ -1,0 +1,123 @@
+{
+    "directory": "",
+	"defaultZoom": 0.62,
+	"isPixelStage": false,
+
+    "boyfriend": [650, 30],
+    "girlfriend": [280, 115],
+    "opponent": [-120, 45.7],
+    "hide_girlfriend": true,
+
+    "camera_boyfriend": [-126.2, 5],
+    "camera_opponent": [300.5, 50],
+    "camera_girlfriend": [0, 0],
+    "camera_speed": 1.12,
+
+    "stageObjects": [
+	      {
+            "id": "yellow",
+            "colour": "0xFFFFD88A",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0, 0]
+        },
+        {
+            "id": "yeah",
+            "asset": "backgrounds/room/winxp",
+            "position": [1150, -170],
+            "scale": [1.67, 1.67],
+            "scrollFactor": [0.8, 0.8],
+            "zIndex": 12,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "xp",
+                    "fps": 2,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "grounds",
+            "asset": "backgrounds/room/ground",
+            "position": [-750, 690],
+            "scale": [2.7, 1.4],
+            "zIndex": 20
+        },
+        {
+            "id": "bro",
+            "asset": "backgrounds/room/door",
+            "position": [-570, 50],
+            "scale": [1.67, 1.67],
+            "zIndex": 20,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "door",
+                    "fps": 2,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "ursinho",
+            "asset": "backgrounds/room/memorias",
+            "position": [20, 285],
+            "scale": [1, 1],
+            "zIndex": 20,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "infancia",
+                    "fps": 2,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "pool",
+            "asset": "backgrounds/room/pool",
+            "position": [1400, 680],
+            "scale": [1.6, 1.6],
+            "zIndex": 21
+        },
+        {
+            "id": "pud",
+            "asset": "backgrounds/whithw/pudim",
+            "position": [789, 227.5],
+            "scale": [1.32, 1.32],
+            "zIndex": 21
+        },
+        {
+            "id": "sofa",
+            "asset": "backgrounds/room/sofa",
+            "position": [-750, 600],
+            "scale": [1.95, 1.95],
+            "scrollFactor": [1.1, 1.1],
+            "zIndex": 23
+        },
+        {
+            "id": "cool",
+            "asset": "backgrounds/room/yo",
+            "position": [1100, 450],
+            "scale": [1.2, 1.2],
+            "zIndex": 23
+        },
+        {
+            "id": "gabo",
+            "asset": "backgrounds/room/alma",
+            "position": [-495, -35],
+            "scale": [1.8, 1.8],
+            "scrollFactor": [1.4, 1.4],
+            "zIndex": 67,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "gagbis",
+                    "fps": 2,
+                    "loop": true
+                }
+            ]
+        }
+    ]
+}

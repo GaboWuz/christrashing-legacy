@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="memorias.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="infancia0000" x="0" y="0" width="193" height="266" frameX="-416" frameY="-252" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="infancia0001" x="193" y="0" width="188" height="264" frameX="-422" frameY="-251" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="door.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="door0000" x="0" y="283" width="195" height="288" frameX="-85" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="door0001" x="0" y="0" width="206" height="283" frameX="-75" frameY="-141" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

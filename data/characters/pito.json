@@ -67,11 +67,15 @@
 	"gameover_intial_sound": null,
 	"scalableOffsets": false,
 	"gameover_confirm_sound": null,
-	"healthicon": "nkel",
+	"healthicon": "pito",
 	"gameover_character": null,
 	"vslice_sustains": true,
 	"flip_x": false,
-	"healthbar_colour": -17152,
+	"healthbar_colors": [
+		255,
+		185,
+		3
+	],
 	"camera_position": [
 		-90,
 		40

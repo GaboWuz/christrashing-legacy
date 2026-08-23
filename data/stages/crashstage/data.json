@@ -1,0 +1,57 @@
+{
+  "directory": "",
+	"defaultZoom": 0.8,
+	"isPixelStage": false,
+
+    "boyfriend": [650, 30],
+    "girlfriend": [215, 10],
+    "opponent": [-180, 35.7],
+    "hide_girlfriend": true,
+
+    "camera_boyfriend": [-257, 5],
+    "camera_opponent": [300.5, 50],
+    "camera_speed": 1.2,
+
+    "stageObjects": [
+	    {
+            "id": "eh",
+            "colour": "0xFF573F9E",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0]
+        },
+        {
+            "id": "oh",
+            "asset": "backgrounds/bruh/xp",
+            "position": [-400, 30],
+            "scale": [0.64, 0.64],
+            "scrollFactor": [0.67, 0.67],
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "wi",
+                    "fps": 2,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "ground",
+            "asset": "backgrounds/bruh/ground",
+            "position": [-750, 700],
+            "scale": [2, 0.7]
+        },
+        {
+            "id": "rato",
+            "asset": "backgrounds/bruh/rato",
+            "position": [235, 488],
+            "scale": [0.7, 0.7]
+        },
+        {
+            "id": "pud",
+            "asset": "backgrounds/whithw/pudim",
+            "position": [789, 227.5],
+            "scale": [1.32, 1.32]
+        }
+    ]
+}

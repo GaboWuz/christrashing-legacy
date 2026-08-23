@@ -4283,7 +4283,7 @@
 		"player2": "noel",
 		"song": "Likeded",
 		"needsVoices": true,
-		"stage": "likev",
+		"stage": "crashstage",
 		"speed": 2.4,
 		"bpm": 148
 	}

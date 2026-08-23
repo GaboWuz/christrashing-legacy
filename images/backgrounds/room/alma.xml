@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="alma.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="gagbis0000" x="0" y="0" width="430" height="426" frameX="-852" frameY="-296" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="gagbis0001" x="430" y="0" width="433" height="423" frameX="-849" frameY="-299" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>
