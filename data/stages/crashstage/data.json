@@ -1,15 +1,15 @@
 {
   "directory": "",
-	"defaultZoom": 0.8,
+	"defaultZoom": 0.9,
 	"isPixelStage": false,
 
     "boyfriend": [650, 30],
     "girlfriend": [215, 10],
-    "opponent": [-180, 35.7],
+    "opponent": [-230, 35.7],
     "hide_girlfriend": true,
 
-    "camera_boyfriend": [-257, 5],
-    "camera_opponent": [300.5, 50],
+    "camera_boyfriend": [-200, 30],
+    "camera_opponent": [340.5, 75],
     "camera_speed": 1.2,
 
     "stageObjects": [
@@ -23,9 +23,9 @@
         {
             "id": "oh",
             "asset": "backgrounds/bruh/xp",
-            "position": [-400, 30],
+            "position": [-360, 0],
             "scale": [0.64, 0.64],
-            "scrollFactor": [0.67, 0.67],
+            "scrollFactor": [0.6, 0.6],
             "animations": [
                 {
                     "anim": "idle",
@@ -42,16 +42,104 @@
             "scale": [2, 0.7]
         },
         {
-            "id": "rato",
-            "asset": "backgrounds/bruh/rato",
-            "position": [235, 488],
-            "scale": [0.7, 0.7]
+            "id": "sofa",
+            "asset": "backgrounds/bruh/sofa",
+            "position": [0, 420],
+            "scale": [0.72, 0.72]
+        },
+        {
+            "id": "vasa",
+            "asset": "backgrounds/bruh/vaso",
+            "position": [645, 520],
+            "scale": [0.6, 0.8]
+        },
+        {
+            "id": "tap",
+            "asset": "backgrounds/bruh/tapeet",
+            "position": [0, 670],
+            "scale": [0.8, 0.8]
+        },
+        {
+            "id": "lumi",
+            "asset": "backgrounds/bruh/luumi",
+            "position": [-40, 200],
+            "scale": [1, 1],
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "idle",
+                    "fps": 24,
+                    "loop": true
+                }
+            ]
         },
         {
             "id": "pud",
             "asset": "backgrounds/whithw/pudim",
             "position": [789, 227.5],
             "scale": [1.32, 1.32]
+        },
+        {
+            "id": "gagbis",
+            "asset": "backgrounds/bruh/gabo",
+            "position": [970, 275],
+            "scale": [0.95, 0.95],
+            "zIndex": 100,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "idle",
+                    "fps": 24,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "estrelanew",
+            "asset": "backgrounds/bruh/StarNova",
+            "position": [700, 480],
+            "scale": [1.25, 1.25],
+            "zIndex": 100,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "idle",
+                    "fps": 24,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "uff",
+            "asset": "backgrounds/bruh/mesa",
+            "position": [-398, 570],
+            "scrollFactor": [1.1, 1.1],
+            "zIndex": 100,
+            "scale": [0.67, 0.67]
+        },
+        {
+            "id": "eehh",
+            "colour": "0xFF573F9E",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0,0],
+            "blend": "add",
+            "alpha": 0.2,
+            "zIndex": 101
+        },
+        {
+            "id": "uhhh",
+            "colour": "0xFFFFFFFF",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "alpha": 0,
+            "scrollFactor": [0,0]
+        },
+        {
+            "id": "mm",
+            "asset": "menus/mainMenu/background/videogabos",
+            "position": [0, 0],
+            "scale": [1.025, 1.05]
         }
     ]
 }

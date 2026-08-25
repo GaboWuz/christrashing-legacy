@@ -1,7 +1,7 @@
 {
 	"song": {
 		"speed": 2.6,
-		"stage": "inter",
+		"stage": "crashstage",
 		"player1": "gay",
 		"player2": "garoto",
 		"events": [],

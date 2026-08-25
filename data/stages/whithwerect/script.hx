@@ -80,7 +80,7 @@ function onCreatePost()
     FlxTween.tween(dadGroup, {y: dadGroup.y + 18}, 0.9, bounceTween);
 
     if (mm != null) {
-        mm.cameras = [camHUD];
+        mm.cameras = [camOther];
         mm.x = (FlxG.width - mm.width) / 2;
         mm.y = (FlxG.height - mm.height) / 2;
     }

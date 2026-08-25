@@ -35,7 +35,7 @@ function onCreatePost() {
     customHealthBar.updateBar();
     customHealthBar.screenCenter(FlxAxes.X);
     customHealthBar.y = playHUD.healthBar.y - 45;
-
+  
     customTimeBar = new FlxBar(7, ClientPrefs.downScroll ? 673 : 13, FlxBarFillDirection.LEFT_TO_RIGHT, 367, 40);
     customTimeBar.cameras = [camHUD];
     customTimeBar.createGradientBar([0xFFFFF1A4, 0xFFFFF6B8], [0xFFFFFFFF, 0xFFFFFFFF], 1, 90, true, 0xFF000000, 3);
