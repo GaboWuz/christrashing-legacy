@@ -1,0 +1,102 @@
+{
+    "directory": "",
+	"defaultZoom": 0.6,
+	"isPixelStage": false,
+
+    "boyfriend": [650, -170],
+    "girlfriend": [280, 115],
+    "opponent": [-120, 40],
+    "hide_girlfriend": true,
+
+    "camera_boyfriend": [-160.2, 100],
+    "camera_opponent": [370.5, -50],
+    "camera_girlfriend": [0, 0],
+    "camera_speed": 1.12,
+
+    "stageObjects": [
+	      {
+            "id": "cyan",
+            "colour": "0xFFAEE6FF",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0, 0]
+        },
+        {
+            "id": "clound",
+            "asset": "backgrounds/windows/clouds",
+            "position": [-500, -200],
+            "scale": [1.8, 1.8],
+            "scrollFactor": [0.4, 0.4]
+        },
+        {
+            "id": "background",
+            "asset": "backgrounds/windows/chaoback",
+            "position": [-100, 235],
+            "scale": [1.5, 1.5],
+            "scrollFactor": [0.7, 0.7]
+        },
+        {
+            "id": "ground",
+            "asset": "backgrounds/windows/chao",
+            "position": [-600, 500],
+            "scale": [2, 1.5]
+        },
+        {
+            "id": "lumi",
+            "asset": "backgrounds/bruh/luumi",
+            "position": [-550, 45],
+            "scale": [1, 1],
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "idle",
+                    "fps": 24,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "pud",
+            "asset": "backgrounds/windows/amosercancelado",
+            "position": [640, 85],
+            "scale": [0.95, 1.05]
+        },
+        {
+            "id": "pu2d",
+            "asset": "backgrounds/windows/calat",
+            "position": [640, 85],
+            "scale": [0.95, 1.05],
+            "zIndex": 69
+        },
+        {
+            "id": "gagbis",
+            "asset": "backgrounds/bruh/gabo",
+            "position": [1250, 280],
+            "scale": [0.87, 0.87],
+            "zIndex": 100,
+            "animations": [
+                {
+                    "anim": "idle",
+                    "name": "idle",
+                    "fps": 24,
+                    "loop": true
+                }
+            ]
+        },
+        {
+            "id": "grad",
+            "asset": "backgrounds/whithw/gradient",
+            "position": [-700, -300],
+            "blend": "add",
+            "alpha": 0.25,
+            "zIndex": 100,
+            "scale": [2.7, 2.7]
+        },
+        {
+            "id": "mm",
+            "asset": "menus/mainMenu/background/videogabos",
+            "position": [0, 0],
+            "scale": [1.025, 1.05]
+        }
+    ]
+}
