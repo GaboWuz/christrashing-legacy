@@ -53,10 +53,12 @@ function onCreatePost() {
     var healthIndex = playHUD.members.indexOf(playHUD.healthBar);
     playHUD.insert(healthIndex, customHealthBar);
     playHUD.insert(healthIndex + 1, bgHealth);
-    
-    var timeIndex = playHUD.members.indexOf(playHUD.timeBar);
-    playHUD.insert(timeIndex, iconGag);
-    playHUD.insert(timeIndex + 1, customTimeBar);
+
+    if (songName != 'IEK') {
+      var timeIndex = playHUD.members.indexOf(playHUD.timeBar);
+      playHUD.insert(timeIndex, iconGag);
+      playHUD.insert(timeIndex + 1, customTimeBar);
+    }
 
     iconP1.x = 920;
     iconP2.x = 200;

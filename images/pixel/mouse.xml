@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mouse.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="0" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="idle0001" x="0" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="click0000" x="0" y="40" width="38" height="38" frameX="-6" frameY="-7" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="click0001" x="0" y="40" width="38" height="38" frameX="-6" frameY="-7" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="click0002" x="0" y="40" width="38" height="38" frameX="-6" frameY="-7" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="click0003" x="40" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="click0004" x="40" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+  <SubTexture name="calick0000" x="0" y="40" width="38" height="38" frameX="-6" frameY="-7" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="calick0001" x="0" y="40" width="38" height="38" frameX="-6" frameY="-7" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="calick0002" x="0" y="40" width="38" height="38" frameX="-6" frameY="-7" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="calick0003" x="40" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="calick0004" x="40" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="calick0005" x="40" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+	<SubTexture name="calick0006" x="40" y="0" width="40" height="40" frameX="-5" frameY="-6" frameWidth="50" frameHeight="50"/>
+</TextureAtlas>

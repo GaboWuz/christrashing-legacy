@@ -9,12 +9,6 @@
 	"difficulties": [
 		"Crash"
 	],
-	"composers": [
-		"yurii"
-	],
 	"displayName": "IEK (MIX)",
-	"freeplayColor": "0xFFFFB903",
-	"artists": [
-		"yurii"
-	]
+	"freeplayColor": "0xFFFFB903"
 }
