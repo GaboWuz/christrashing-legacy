@@ -1,0 +1,73 @@
+{
+    "directory": "",
+	"defaultZoom": 0.62,
+	"isPixelStage": false,
+
+    "boyfriend": [650, 100],
+    "girlfriend": [215, 10],
+    "opponent": [-120, 35.7],
+    "hide_girlfriend": true,
+
+    "camera_boyfriend": [-126.2, 5],
+    "camera_opponent": [300.5, 50],
+    "camera_girlfriend": [0, 0],
+    "camera_speed": 1.12,
+
+    "stageObjects": [
+	      {
+            "id": "white",
+            "scale": [6969, 6969],
+            "position": [-2000, -2500],
+            "scrollFactor": [0, 0]
+        },
+        {
+            "id": "sun",
+            "asset": "backgrounds/whithw/sol",
+            "position": [-500, -400],
+            "scale": [1.1, 1.1],
+            "scrollFactor": [0.2, 0.2]
+        },
+        {
+            "id": "backback",
+            "asset": "backgrounds/stiqui/backtwo",
+            "position": [-100, 120],
+            "scrollFactor": [0.3, 0.3],
+            "scale": [1.5, 1.5]
+        },
+        {
+            "id": "back",
+            "asset": "backgrounds/stiqui/backone",
+            "position": [-600, 100],
+            "scrollFactor": [0.4, 0.4],
+            "scale": [1.9, 1.9]
+        },
+        {
+            "id": "yeah",
+            "asset": "backgrounds/stiqui/gram",
+            "position": [-600, 200],
+            "scrollFactor": [0.7, 0.7],
+            "scale": [1.8, 1.8]
+        },
+        {
+            "id": "grounds",
+            "asset": "backgrounds/stiqui/ground",
+            "position": [-750, 680],
+            "scale": [2.7, 1.4]
+        },
+        {
+            "id": "grad",
+            "asset": "backgrounds/whithw/gradient",
+            "position": [-700, -300],
+            "blend": "multiply",
+            "alpha": 0.1,
+            "zIndex": 100,
+            "scale": [2.7, 2.7]
+        },
+        {
+            "id": "mm",
+            "asset": "menus/mainMenu/background/videogabos",
+            "position": [0, 0],
+            "scale": [1.025, 1.05]
+        }
+    ]
+}

@@ -5,11 +5,11 @@
 	"coders": [
 		"StarNova ft. yurii"
 	],
-	"freeplayIcon": "dad",
+	"freeplayIcon": "stiqui",
 	"difficulties": [
 		"Normal"
 	],
   
 	"displayName": "stick",
-	"freeplayColor": "0xFF000000"
+	"freeplayColor": "0xFFDEE2FF"
 }

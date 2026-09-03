@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bfss",
-		"player2": "tick",
+		"player1": "bftwoss",
+		"player2": "stiquierec",
 		"events": [],
 		"notes": [
 			{
@@ -5240,7 +5240,7 @@
 		"splashSkin": "noteSplashes",
 		"song": "stiqui-erect",
 		"validScore": false,
-		"stage": "white",
+		"stage": "whiteerect",
 		"needsVoices": true,
 		"speed": 3.2,
 		"bpm": 200
