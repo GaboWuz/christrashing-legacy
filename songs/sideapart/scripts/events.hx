@@ -30,6 +30,8 @@ var bfThings:Array<FlxSprite> = [];
 var beef:FlxSprite;
 var ideek:FlxSprite;
 
+var yipeee:FlxSprite;
+
 function createSprite(path:String, x:Float, y:Float, ?isAlpha:Bool = false):FlxSprite {
     var sprite = new FlxSprite(x, y);
     if (path != "") sprite.loadGraphic(Paths.image(path));
@@ -95,22 +97,22 @@ function onLoad() {
         FlxG.cameras.add(PlayState.instance.camOther, false);
     }
 
-    darkFade = new FlxSprite(0, 0).makeGraphic(1280, 720, 0xFF000000);
+    darkFade = new FlxSprite(0, 0).makeGraphic(1290, 720, 0xFF000000);
     darkFade.cameras = [camEvent];
     darkFade.alpha = 0; 
     add(darkFade);
 
-    customBg = new FlxSprite(0, 0).makeGraphic(1280, 720, 0xFFFFDE6B);
+    customBg = new FlxSprite(0, 0).makeGraphic(1290, 720, 0xFFFFDE6B);
     customBg.cameras = [camEvent];
     customBg.visible = false;
     add(customBg);
 
-    cinematicTop = new FlxSprite(0, -100).makeGraphic(1280, 270, 0xFF000000);
+    cinematicTop = new FlxSprite(0, -100).makeGraphic(1290, 270, 0xFF000000);
     cinematicTop.cameras = [camEvent];
     cinematicTop.visible = false;
     add(cinematicTop);
 
-    cinematicBottom = new FlxSprite(0, 550).makeGraphic(1280, 190, 0xFF000000);
+    cinematicBottom = new FlxSprite(0, 550).makeGraphic(1290, 190, 0xFF000000);
     cinematicBottom.cameras = [camEvent];
     cinematicBottom.visible = false;
     add(cinematicBottom);
@@ -156,6 +158,13 @@ function onLoad() {
 
     createMainIcons(eventImages, mainIcons);
     createMainIcons(BFeventImages, BFmainIcons);
+
+    yipeee = new FlxSprite(-700, 500);
+    yipeee.frames = Paths.getSparrowAtlas('ui/events/liberdade');
+    yipeee.animation.addByPrefix('anim', 'noescape', 24, true);
+    yipeee.animation.play('anim');
+    yipeee.cameras = [camOther];
+    add(yipeee);
 }
 
 function setSceneVisibility(index:Int, isBf:Bool) {
@@ -232,6 +241,9 @@ function onBeatHit() {
 }
 
 function onStepHit() {
+    if (curStep == 512) {
+      defaultCamZoom = 0.767;
+    }
     if (curStep == 760) {
         FlxTween.tween(FlxG.camera, {zoom: camEvent.zoom + 0.3}, 0.8, {ease: FlxEase.sineInOut}); 
         FlxTween.tween(darkFade, {alpha: 1}, 0.8, {ease: FlxEase.sineInOut});
@@ -291,7 +303,16 @@ function onStepHit() {
         hideSprites(BFeventSprites);
     }
 
+    if (curStep == 1200) {
+        FlxTween.tween(yipeee, {x: 0, y: 0}, 2, {ease: FlxEase.quartInOut});
+    }
+
+    if (curStep == 1275) {
+        FlxTween.tween(yipeee, {x: -700, y: 200}, 2, {ease: FlxEase.quartIn});
+    }
+
     if (curStep == 1280) {
+        defaultCamZoom = 0.62;
         camHUD.flash(0xFFFFFFFF, 1.0);
         customBg.visible = false;
         cinematicTop.visible = false;

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="liberdade.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="noescape0000" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0001" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0002" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0003" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0004" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0005" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0006" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0007" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0008" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0009" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0010" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0011" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0012" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0013" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0014" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0015" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0016" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0017" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0018" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0019" x="0" y="0" width="671" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0020" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0021" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0022" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0023" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0024" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0025" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0026" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0027" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0028" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0029" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0030" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0031" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0032" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0033" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0034" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0035" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0036" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0037" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0038" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+	<SubTexture name="noescape0039" x="671" y="0" width="655" height="597" frameX="2" frameY="-125" frameWidth="680" frameHeight="720"/>
+</TextureAtlas>
