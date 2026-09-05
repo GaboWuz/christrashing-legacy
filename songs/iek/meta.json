@@ -1,13 +1,13 @@
 {
-	"charters": [
-		"yurii"
-	],
 	"coders": [
 		"StarNova ft. yurii"
 	],
 	"freeplayIcon": "pito",
 	"difficulties": [
 		"Crash"
+	],
+  "composers": [
+		"yurii"
 	],
 	"displayName": "IEK (MIX)",
 	"freeplayColor": "0xFFFFB903"

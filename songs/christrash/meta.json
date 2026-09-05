@@ -1,7 +1,4 @@
 {
-	"charters": [
-		"yurii"
-	],
 	"coders": [
 		"StarNova ft. yurii"
 	],
@@ -13,8 +10,5 @@
 		"yurii"
 	],
 	"displayName": "Christrashing",
-	"freeplayColor": "0xFFD7466D",
-	"artists": [
-		"yurii"
-	]
+	"freeplayColor": "0xFFD7466D"
 }

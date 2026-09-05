@@ -1,7 +1,4 @@
 {
-	"charters": [
-		"yurii"
-	],
 	"coders": [
 		"StarNova ft. yurii"
 	],
@@ -9,7 +6,9 @@
 	"difficulties": [
 		"Normal"
 	],
-  
+  "composers": [
+		"yurii"
+	],
 	"displayName": "stick",
 	"freeplayColor": "0xFFDEE2FF"
 }

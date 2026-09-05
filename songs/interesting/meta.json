@@ -1,7 +1,4 @@
 {
-	"charters": [
-		"yurii"
-	],
 	"coders": [
 		"StarNova ft. yurii"
 	],
@@ -13,8 +10,5 @@
 		"yurii"
 	],
 	"displayName": "Interesting (MIX)",
-	"freeplayColor": "0xFF518BFF",
-	"artists": [
-		"yurii"
-	]
+	"freeplayColor": "0xFF518BFF"
 }

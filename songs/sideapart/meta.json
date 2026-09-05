@@ -1,7 +1,4 @@
 {
-	"charters": [
-		"yurii"
-	],
 	"coders": [
 		"StarNova ft. yurii"
 	],
@@ -13,8 +10,5 @@
 		"yurii"
 	],
 	"displayName": "sideApart",
-	"freeplayColor": "0xFFFFB903",
-	"artists": [
-		"yurii"
-	]
+	"freeplayColor": "0xFFFFB903"
 }

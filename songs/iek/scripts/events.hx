@@ -91,8 +91,6 @@ function onLoad() {
   add(mouse);
 }
 
-var clickArea:FlxSprite = null;
-
 function onUpdatePost(elapsed:Float) {
     if (mouse != null && onMouse == 'jogavel') {
       mouse.x = (FlxG.stage.mouseX / FlxG.scaleMode.scale.x) - 177;
