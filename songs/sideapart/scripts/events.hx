@@ -159,10 +159,11 @@ function onLoad() {
     createMainIcons(eventImages, mainIcons);
     createMainIcons(BFeventImages, BFmainIcons);
 
-    yipeee = new FlxSprite(-700, 500);
+    yipeee = new FlxSprite(-700, 200);
     yipeee.frames = Paths.getSparrowAtlas('ui/events/liberdade');
     yipeee.animation.addByPrefix('anim', 'noescape', 24, true);
     yipeee.animation.play('anim');
+    yipeee.scale.set(0.7, 0.7);
     yipeee.cameras = [camOther];
     add(yipeee);
 }
@@ -304,7 +305,7 @@ function onStepHit() {
     }
 
     if (curStep == 1200) {
-        FlxTween.tween(yipeee, {x: 0, y: 0}, 2, {ease: FlxEase.quartInOut});
+        FlxTween.tween(yipeee, {x: -120, y: 120}, 2, {ease: FlxEase.quartInOut});
     }
 
     if (curStep == 1275) {
